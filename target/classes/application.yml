@@ -1,0 +1,15 @@
+##配置端口号和项目名
+server:
+  port: 8082
+  context-path: /ssm
+##配置连接数据库的信息
+spring:
+  datasource:
+    url: jdbc:mysql://114.215.174.47:3306/URP?serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1017825
+##配置mybatis映射文件和别名
+mybatis:
+  type-aliases-package: cn.ssm.pojo
+  mapper-locations: classpath:mapper/*.xml
