@@ -1,7 +1,7 @@
 ##配置端口号和项目名
 server:
   port: 8082
-  context-path: /ssm
+  context-path: /school
 ##配置连接数据库的信息
 spring:
   datasource:
@@ -11,5 +11,5 @@ spring:
     password: 1017825
 ##配置mybatis映射文件和别名
 mybatis:
-  type-aliases-package: cn.ssm.pojo
+  type-aliases-package: cn.entity
   mapper-locations: classpath:mapper/*.xml
