@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author jobob
@@ -24,12 +24,12 @@ public class Position implements Serializable {
      * 职位id
      */
     @TableId(value = "zw-id", type = IdType.AUTO)
-    private Integer zw-id;
+    private Integer zwid;
 
     /**
      * 职位名称（例如阿姨，老师）
      */
-    private String zw-name;
+    private String zwname;
 
 
 }
